@@ -49,7 +49,7 @@
                     <li class="dropdown">
                       <a id="user-dropdown" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" style="background:none;padding-right:0;margin-right:0">Logged in as <strong><?=$info['email_address']?></strong> <i class="icon-cog icon-white"></i></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="user-dropdown" style="margin-left: 0px;margin-top: 6px;">
-                        <li><a href="<?=base_url('xadmin/account/account-information')?>"><i class="icon-info-sign"></i> My Account Information</a></li>
+                        <li><a href="<?=base_url('xadmin/account/information')?>"><i class="icon-info-sign"></i> My Account Information</a></li>
                         <li><a href="<?=base_url('xadmin/account/settings')?>"><i class="icon-cog"></i> Account Settings</a></li>
                
                         <li class="divider"></li>
@@ -63,38 +63,6 @@
       </div>
     </div>
 
-<!--
- <h4>Tooltips in a modal</h4>
-              <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> should have tooltips on hover.</p>
-
- 
-
-
-<div class="navbar navbar-fixed-top navbar-inverse navbar-static-top">
-              <div class="navbar-inner">
-                <div class="container" style="width: auto; padding: 0 20px;">
-                  <a class="brand" href="<?=base_url('xadmin')?>"><img src="<?=base_url('public/admin/images/brand-logo.png')?>" alt="AICS Smartlink" style="width: 130px;" /></a>
-                  <ul class="nav">
-                    <li class="active"><a href="<?=base_url('xadmin')?>">Administration Panel</a></li>
-                  </ul>
-
-                   <ul class="nav pull-right" role="navigation" id="user-login">
-                    <li class="dropdown">
-                      <a id="user-dropdown" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" style="background:none;padding-right:0;margin-right:0">Logged in as <strong><?=$info['email_address']?></strong> <i class="icon-cog icon-white"></i></a>
-                      <ul class="dropdown-menu" role="menu" aria-labelledby="user-dropdown" style="margin-left: 0px;margin-top: 6px;">
-                        <li><a href="<?=base_url('xadmin/account/account-information')?>"><i class="icon-info-sign"></i> My Account Information</a></li>
-                        <li><a href="<?=base_url('xadmin/account/settings')?>"><i class="icon-cog"></i> Account Settings</a></li>
-               
-                        <li class="divider"></li>
-                        <li><a href="<?=base_url('main/logout')?>"><i class="icon-off"></i> Logout</a></li>
-                      </ul>
-                    </li>
-         
-                  </ul>
-                </div>
-              </div>
-
-            </div>-->
   <div class="container">
 
           

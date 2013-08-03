@@ -74,7 +74,8 @@ class account extends crackerjack{
 	*/
 
 	public function information($id = false){
-		echo 1;
+		$data['test'] = array('test','test3');
+		$this->load->template('xadmin/account_information',$this->acl->isAllowed(),$data);
 	}
 
 
