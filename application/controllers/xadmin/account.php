@@ -73,7 +73,7 @@ class account extends crackerjack{
 	* 
 	*/
 
-	public function account_information($id = false){
+	public function information($id = false){
 		echo 1;
 	}
 
