@@ -5,7 +5,7 @@
 *
 */
 
-$config['base_url'] = 'http://localhost/smartlink/';
+$config['base_url'] = 'http://localhost/massive-octo-avenger/';
 
 //default controller
 //route options
